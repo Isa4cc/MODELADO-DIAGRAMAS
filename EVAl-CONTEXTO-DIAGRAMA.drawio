@@ -1,38 +1,38 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="XKyACyIgYxcrg276IeDu">
-    <mxGraphModel dx="1201" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFE6CC,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFE6CC,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sistema" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="Herramienta SaaS de&lt;br&gt;Producción de Dibujos Animados" vertex="1">
-          <mxGeometry height="110" width="230" x="450" y="380" as="geometry" />
+          <mxGeometry height="110" width="230" x="290" y="390" as="geometry" />
         </mxCell>
         <mxCell id="ilustrador" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="Ilustrador" vertex="1">
-          <mxGeometry height="65" width="150" x="120" y="160" as="geometry" />
+          <mxGeometry height="65" width="150" x="20" y="130" as="geometry" />
         </mxCell>
         <mxCell id="animador" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="Animador" vertex="1">
-          <mxGeometry height="65" width="150" x="860" y="160" as="geometry" />
+          <mxGeometry height="65" width="150" x="650" y="80" as="geometry" />
         </mxCell>
         <mxCell id="publico" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="Público" vertex="1">
-          <mxGeometry height="65" width="150" x="490" y="70" as="geometry" />
+          <mxGeometry height="65" width="150" x="240" y="130" as="geometry" />
         </mxCell>
         <mxCell id="licencias" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="Sistema de Licencias" vertex="1">
-          <mxGeometry height="65" width="150" x="80" y="540" as="geometry" />
+          <mxGeometry height="65" width="150" x="10" y="650" as="geometry" />
         </mxCell>
         <mxCell id="web" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="Portal Web" vertex="1">
-          <mxGeometry height="65" width="150" x="300" y="680" as="geometry" />
+          <mxGeometry height="65" width="150" x="90" y="850" as="geometry" />
         </mxCell>
         <mxCell id="eks" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="AWS EKS&lt;br&gt;(Contenedores)" vertex="1">
-          <mxGeometry height="65" width="150" x="580" y="680" as="geometry" />
+          <mxGeometry height="65" width="150" x="380" y="830" as="geometry" />
         </mxCell>
         <mxCell id="ec2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="AWS EC2&lt;br&gt;(Base de Datos)" vertex="1">
-          <mxGeometry height="65" width="150" x="860" y="450" as="geometry" />
+          <mxGeometry height="65" width="150" x="640" y="570" as="geometry" />
         </mxCell>
         <mxCell id="s3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=13;" value="AWS S3&lt;br&gt;(Buckets)" vertex="1">
-          <mxGeometry height="65" width="150" x="860" y="640" as="geometry" />
+          <mxGeometry height="65" width="150" x="610" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="rel_colab" edge="1" parent="1" source="ilustrador" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="animador" value="Colabora y Provee ilustraciones base">
-          <mxGeometry relative="1" x="0.1846" y="-88" as="geometry">
+        <mxCell id="rel_colab" edge="1" parent="1" source="ilustrador" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="animador" value="Colabora y Provee ilustraciones base">
+          <mxGeometry relative="1" x="-0.2572" y="-30" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="550" y="-70" />
@@ -42,64 +42,68 @@
         <mxCell id="rel_ilus_sis" edge="1" parent="1" source="ilustrador" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="sistema" value="Se registra vía Web / Crea páginas y capas /&lt;br&gt;Dibuja con pinceles, formas y efectos">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="340" />
+              <mxPoint x="230" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel_anim_sis" edge="1" parent="1" source="animador" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="sistema" value="Toma ilustraciones / Organiza escenarios y personajes /&lt;br&gt;Agrupa en líneas de tiempo y genera movimiento">
-          <mxGeometry relative="1" x="-0.1806" y="3" as="geometry">
+        <mxCell id="rel_anim_sis" edge="1" parent="1" source="animador" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="sistema" value="Toma ilustraciones / Organiza escenarios y personajes /&lt;br&gt;Agrupa en líneas de tiempo y genera movimiento">
+          <mxGeometry relative="1" x="0.5335" y="-59.42" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="820" y="340" />
+              <mxPoint x="790" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_pub_sis" edge="1" parent="1" source="publico" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sistema" value="Consume ilustraciones y&lt;br&gt;animaciones publicadas">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="-0.2379" y="-21" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="565" y="260" />
+              <mxPoint x="535" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_ilus_lic" edge="1" parent="1" source="ilustrador" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="licencias" value="Adquiere código de licencia">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="380" />
+              <mxPoint x="80" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_sis_lic" edge="1" parent="1" source="licencias" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.75;entryDx=0;entryDy=0;" target="sistema" value="Valida código de licencia&lt;br&gt;en registro Web">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="350" y="550" />
+              <mxPoint x="320" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_sis_web" edge="1" parent="1" source="sistema" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="web" value="Exporta en SVG y&lt;br&gt;publica">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="580" />
+              <mxPoint x="410" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_sis_eks" edge="1" parent="1" source="sistema" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eks" value="Desplegado en alta&lt;br&gt;disponibilidad">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.1637" y="-34" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="650" y="580" />
+              <mxPoint x="620" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel_sis_ec2" edge="1" parent="1" source="sistema" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.65;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ec2" value="Despliega Base de Datos en">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="rel_sis_ec2" edge="1" parent="1" source="sistema" style="curved=1;endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.65;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ec2" value="Despliega Base de Datos en">
+          <mxGeometry relative="1" x="-0.1933" y="-10" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="760" y="480" />
+              <mxPoint x="730" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rel_ec2_s3" edge="1" parent="1" source="ec2" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="s3" value="Utiliza almacenamiento">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.1285" y="-31" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="935" y="580" />
+              <mxPoint x="730" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
