@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="tdcrA_eqOfTWkejxwn3M">
-    <mxGraphModel dx="1864" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1307" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,6 +199,9 @@
             <mxPoint x="300" y="1115" as="sourcePoint" />
             <mxPoint x="160" y="1115" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1sEWzTt3OGPmx3KrkYfM-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Diagrama de Secuencia&lt;br&gt;Examen Práctico Progreso 2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Isaac Benítez&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="230" x="80" y="1440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
