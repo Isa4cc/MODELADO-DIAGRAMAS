@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="QpngGBh_8j_FXlCoOmV9" name="Página-2">
-    <mxGraphModel dx="959" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1516" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,10 +41,10 @@
           <mxGeometry height="85" width="250" x="1170" y="375" as="geometry" />
         </mxCell>
         <mxCell id="N4" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0;darkOpacity2=0;size=20;verticalAlign=top;spacingTop=5;flipH=1;legacyAnchorPoints=0;" value="&amp;lt;&amp;lt;Execution Environment&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Pasarela de Pagos (Externa)&lt;/u&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="170" width="300" x="1150" y="520" as="geometry" />
+          <mxGeometry height="170" width="300" x="700" y="580" as="geometry" />
         </mxCell>
         <mxCell id="N4a" parent="1" style="shape=component;align=center;html=1;whiteSpace=wrap;spacingRight=20;" value="«Servicio»&lt;br&gt;&lt;b&gt;Procesamiento de Pagos&lt;/b&gt;" vertex="1">
-          <mxGeometry height="70" width="250" x="1170" y="585" as="geometry" />
+          <mxGeometry height="70" width="250" x="720" y="645" as="geometry" />
         </mxCell>
         <mxCell id="N5" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0;darkOpacity2=0;size=20;verticalAlign=top;spacingTop=5;flipH=1;legacyAnchorPoints=0;" value="&amp;lt;&amp;lt;Execution Environment&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Sistemas de Reserva Externos&lt;/u&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="370" width="300" x="1610" as="geometry" />
@@ -70,11 +70,10 @@
         <mxCell id="C4" edge="1" parent="1" source="N1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=default;" target="N3" value="TCP">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C5" edge="1" parent="1" source="N1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=10;entryPerimeter=0;" target="N4" value="HTTPS">
-          <mxGeometry relative="1" x="0.1139" as="geometry">
+        <mxCell id="C5" edge="1" parent="1" source="N1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;labelBackgroundColor=default;entryX=0.5;entryY=0;entryDx=-10;entryDy=0;entryPerimeter=0;" target="N4" value="HTTPS">
+          <mxGeometry relative="1" x="0.3244" as="geometry">
             <Array as="points">
-              <mxPoint x="1120" y="260" />
-              <mxPoint x="1120" y="615" />
+              <mxPoint x="860" y="310" />
             </Array>
             <mxPoint x="1120" y="610" as="targetPoint" />
           </mxGeometry>
